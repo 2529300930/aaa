@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		li{
+			list-style: none;
+		}
+		img{
+			vertical-align: top;
+		}
+
+
+		.w{
+			width: 1260px;
+			margin: auto;
+			
+		}
+		.fl{
+			float: left;
+		}
+		.fr{
+			float: right;
+		}
+		.clearfix:after{
+			content: "";
+			display: block;
+			clear: both;
+		}
+		
+		.content{
+			background-color: #f6f7fb;
+		}
+		.list li{
+			float: left;
+			margin-left: 20px;
+		}
+		.list a{
+			display: block;
+		}
+		.list img{
+			
+		}
+		.list li:first-child{
+			margin-left: 0;
+		}
+		.left{
+			width: 940px;
+			
+			color: #272a2c;
+		}
+		.left h3,.right h3{
+			font-weight: normal;
+			height: 22px;
+			margin-top: 40px;
+			margin-bottom: 30px;
+		}
+		.left span,.right span{
+			display: block;
+			font-size: 22px;
+			border-left: solid 4px #cf1132;
+			line-height: 22px;
+			padding-left: 15px;
+			float: left;
+			
+		}
+
+		.left b{
+			font-size: 16px;
+			font-weight: normal;
+			background: url(images/m.jpg) no-repeat right center;
+			padding-right: 30px; 
+		}
+		.left ol li{
+			width: 300px;
+			float: left;
+			margin-right: 20px;
+			margin-bottom: 20px;
+			background-color: #fff;
+		}
+		.left ol li>a{
+			display: block;
+		}
+		.left ol li:nth-child(3n){
+			margin-right: 0;
+		}
+		.left li div{
+			padding: 0 16px;
+			overflow: hidden;
+		}
+		.left div a{
+			float: right;
+		}
+		.left h4{
+			font: 20px/32px;
+			color: #383838;
+		}
+		.left p{
+			font-size: 14px;
+			color: #b1b1b1;
+		}
+		.right{
+			width: 300px;
+			/*background: blue;*/
+		}
+		
+		
+
+		
+	</style>
+	
+</head>
+<body>
+	<div class="wraaper">
+		<div class="content">
+			<ul class="w list clearfix">
+				<li><a href=""><img src="images/img1.jpg" alt=""></a></li>
+				<li><a href=""><img src="images/img1.jpg" alt=""></a></li>
+				<li><a href=""><img src="images/img1.jpg" alt=""></a></li>
+				<li><a href=""><img src="images/img1.jpg" alt=""></a></li>
+			</ul>
+			<div class="clearfix w">
+				<div class="left fl">
+					<h3><span>热门游戏</span><b class="fr">换一批</b></h3>
+					<ol>
+						<li>
+							<a href=""><img src="images/img2.jpg" alt=""></a>
+							<div>
+								<h4>《标题》</h4>
+								<p>文字文字文字文字文字文字文字</p>
+								<a href="">进入官网</a>
+							</div>
+						</li>
+						<li>
+							<a href=""><img src="images/img2.jpg" alt=""></a>
+							<div>
+								<h4>《标题》</h4>
+								<p>文字文字文字文字文字文字文字</p>
+								<a href="">进入官网</a>
+							</div>
+						</li>
+						<li>
+							<a href=""><img src="images/img2.jpg" alt=""></a>
+							<div>
+								<h4>《标题》</h4>
+								<p>文字文字文字文字文字文字文字</p>
+								<a href="">进入官网</a>
+							</div>
+						</li>
+						<li>
+							<a href=""><img src="images/img2.jpg" alt=""></a>
+							<div>
+								<h4>《标题》</h4>
+								<p>文字文字文字文字文字文字文字</p>
+								<a href="">进入官网</a>
+							</div>
+						</li>
+						<li>
+							<a href=""><img src="images/img2.jpg" alt=""></a>
+							<div>
+								<h4>《标题》</h4>
+								<p>文字文字文字文字文字文字文字</p>
+								<a href="">进入官网</a>
+							</div>
+						</li>
+						<li>
+							<a href=""><img src="images/img2.jpg" alt=""></a>
+							<div>
+								<h4>《标题》</h4>
+								<p>文字文字文字文字文字文字文字</p>
+								<a href="">进入官网</a>
+							</div>
+						</li>
+
+					</ol>
+				</div>
+				<div class="right fr">
+					<h3><span>热门游戏</span></h3>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div>
+		<span>1</span>
+		<span>2</span>
+	</div>
+</body>
+</html>
